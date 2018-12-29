@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+        <title>Egyptian_Tourism_Advisor</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="msapplication-tap-highlight" content="no">
+       <meta name="description" content="Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs.">
+        <meta name="keywords" content="Egypt,Aswan,Cairo,CairoTower,Pyramids,The egyption museum,Abu simbel ,About egypt,Salah El Din Al Ayouby Citadel">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="icon/logo66.png">
+       
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+    color: aliceblue;
+    background-color: #011D3B;
+}
+  body{
+     background-image: url("images/intro.jpg");
+    height: 100%;
+    width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:fixed;
+      
+      }
+ th {
+  border: 1px solid ;
+  text-align: left;
+  padding: 8px;
+  background-color: #011D3B;
+}
+    td{
+ border: 1px solid ;
+  text-align: left;
+  padding: 8px;
+        color: bisque;
+  background-color: #011D3B;
+    }
+tr:nth-child(even) {
+  background-color: #011D3B;
+}
+    body{
+        background-color: #011D3B;
+    }
+    #myInput{
+width: 400px;
+height: 45px;
+margin: 10px;
+background-color: aliceblue;
+color:black;
+border-radius: 50px;
+font-size: 15px;  
+float: left;
+    
+    }
+    
+</style>
+</head>
+<body>
+
+<h1>Database For Users</h1>
+<input id="myInput" type="text" placeholder="Search for users....">
+<br><br>
+<table>
+  <thead>
+  <tr>
+    <th>Full Name</th>
+    <th>E-Mail</th>
+  </tr>
+  </thead>
+  <tbody id="myTable">
+  <tr>
+    <td>1/ahmed ali mohamed </td>
+    <td>ahmed@gmail.com</td>
+  </tr>
+  <tr>
+    <td>2/mohab omar khaled</td>
+    <td>mohab2569@yahoo.com</td>
+  </tr>
+  <tr>
+    <td>3/eslam ahmed hasheem</td>
+    <td>eslamahmedcs@gmail.com</td>
+  </tr>
+  <tr>
+    <td>4/amr mohamed ali</td>
+    <td>amrmohamed@hotmail</td>
+  </tr>
+     <tr>
+    <td>5/abdelrahmed essam mohamed</td>
+    <td>abdelrahmenmohamed129@gmail.com</td>
+  </tr> 
+      <tr>
+    <td>6/meshal adel </td>
+    <td>meshal@yahoo.com</td>
+  </tr>
+      <tr>
+    <td>7/tamer saber metwaly</td>
+    <td>saber.369@gmail.com</td>
+  </tr>
+      <tr>
+    <td>8/ahmed yasser farouk</td>
+    <td>ahmed yasser@yahoo.com</td>
+  </tr>
+      <tr>
+    <td>9/ismael abdelfatah faiz</td>
+    <td>ismael@yahoo.com</td>
+  </tr>
+      <tr>
+    <td>10/mohamed salah ali</td>
+    <td>mohamedsala@gmail.com</td>
+  </tr>
+      <tr>
+    <td>11/nada mohamed ahmed</td>
+    <td>nada@hotmail</td>
+  </tr>
+      <tr>
+    <td>12/hamdy mohamed hamdy</td>
+    <td>hamdy@gmail.com</td>
+  </tr>
+      <tr>
+    <td>13/mohamed ahmed yasser </td>
+    <td>ahmed12@gmail.com</td>
+  </tr>
+      <tr>
+    <td>14/mohamed gamal mohamed</td>
+    <td>gamal@gmail.com</td>
+  </tr>
+      <tr>
+    <td>15/moaz alaaeldin</td>
+    <td>moaz78@yahoo.com</td>
+  </tr>
+      <tr>
+    <td>16/mina nagh mina</td>
+    <td>mina@gmail.com</td>
+  </tr>
+      <tr>
+    <td>17/mohamed ahmed alsaeed</td>
+    <td>alssaed@yahoo.com</td>
+  </tr>
+      <tr>
+    <td>18/saleem adel mohamed</td>
+    <td>adel@gmai.com</td>
+  </tr>
+      <tr>
+    <td>19/manar mohssen ahmed</td>
+    <td>manar852@yahoo.com</td>
+  </tr>
+      <tr>
+    <td>20/aya ahmed ali</td>
+    <td>aya892@yahoo.com</td>
+  </tr>
+ 
+  </tbody>
+</table>
+  
+<p>© Copyrights Egypt 2018. All Rights Reserved.</p>
+         <h3>Supervisor:Dr.Essam Eliwa</h3>
+</body>
+</html>

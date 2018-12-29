@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Preview Link</title>
+  <meta charset="utf-8">
+  <!--
+    
+(C) Copyright IBM Corp. 2017 - 2018. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the &#34;License&#34;); you may not use this file except
+in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License
+is distributed on an &#34;AS IS&#34; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing permissions and limitations under
+the License.
+
+watson-web-channel 0.0.1
+Contributors: Ethan Winters &lt;ewinters@us.ibm.com&gt;, Raymond Chu &lt;chuma@us.ibm.com&gt;, Karen Harris &lt;kwharris@us.ibm.com&gt;, Ashley Lord &lt;melissa.lord@ibm.com&gt;, Amy Zhong &lt;amy.zhong@ibm.com&gt;, Ryan Simpson &lt;ryan.simpson@ibm.com&gt;
+
+
+
+  -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|IBM+Plex+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://assistant-chat-eu-gb.watsonplatform.net/web/chat/styles/base.css">
+  <link rel="stylesheet" href="https://assistant-chat-eu-gb.watsonplatform.net/web/chat/styles/themes/default.css">
+  <link rel="stylesheet" href="https://assistant-chat-eu-gb.watsonplatform.net/web/chat/styles/chat.css">
+</head>
+<body>
+  <div class='Chat__header'>
+    <h2>
+      Build your own assistant using
+      <a href='https://www.ibm.com/watson/services/conversation/' target='_blank'>
+        IBM Watson Assistant
+        <svg class='Chat__header-svg' viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.7 9.7L22 3.4V8h2V0h-8v2h4.6l-6.3 6.3z"></path>
+          <path d="M22 18H2V4h10V0H0v20h24v-8h-2z"></path>
+        </svg>
+      </a>
+    </h2>
+  </div>
+  <div class='Chat__holder'>
+    <div class='Chat__body'></div>
+  </div>
+  <script src="https://assistant-chat-eu-gb.watsonplatform.net/web/chat/ibm.chat.0.0.1.js"></script>
+  <script>
+    const config = {
+      bot_image: null, // 'http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-11/256/smiling-face-with-open-mouth.png'
+      bot_name: '',
+      debug: true,
+      element: document.querySelector('.Chat__body'),
+      integration_id: 'a8612e89-8019-4934-a043-1a31b473b357',
+      post_url: 'https://assistant-chat-eu-gb.watsonplatform.net/public/message/'
+    };
+    const chat = new WatsonChat(config);
+  </script>
+</body>
+</html>

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>Egyptian_Tourism_Advisor</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="description" content="Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs.">
+        <meta name="keywords" content="Egypt,Aswan,Cairo,CairoTower,Pyramids,The egyption museum,Abu simbel ,About egypt,Salah El Din Al Ayouby Citadel">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="icon/logo66.png">
+    </head>
+ <body>
+<script type="text/JavaScript" src="js/javascript%20code%20login.js"></script>
+<script type="text/JavaScript" src="js/login%20profile.js"></script>
+     <script type="text/JavaScript" src="js/viewplaces.js"></script>
+
+  <style>
+    .modal-content {
+     background-image: url("images/170404.jpg");
+    background-position: left;
+    background-size: cover;
+    margin: 5% auto 15% auto;  
+    border: 1px solid #888;
+    width: 80%; }
+      body{
+     background-image: url("images/4K-Lights-Best-Wallpaper-1.jpg");
+     background-position: left;
+     background-size: cover;
+      }
+      .o{
+      background-image: url("icon/4k-wallpaper-13.jpg");
+      height: 100%;
+      width: 100%;
+      text-align:center;
+      background-position:center;
+      text-align: left;   
+      }
+      .u{
+     background-image: url("images/Assassin's.Creed_.Origins.full.2178978.jpg");
+    height: 100%;
+    width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      }
+     </style>
+    <header>
+        <style>
+        strong{
+         color:whitesmoke;
+         background-color:darkgoldenrod;
+         margin:10px;
+         padding: 10px;
+         font-size: 20px;}
+        strong:hover{
+        background-color:brown;}
+      #l1{
+          float: left;}
+     </style>
+ <div id="id01" class="modal">
+  <form class="modal-content animate" action="#">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>Pick one of these two.</h1>
+        <h3>You must choose "User" if you are not a site manager</h3>
+         <strong onclick="document.getElementById('id02').style.display='block'">User</strong>
+        <strong onclick="document.getElementById('id03').style.display='block'">Admin</strong>
+      </div>
+    </form>
+    </div>  
+    <div id="id03" class="modal">
+  <form  class="modal-content animate" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h3>To Access the database, enter the following
+       </h3>
+        <img src="icon/security__lock__server__database__storage-512.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+ <center>
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+<input type="text" id="username" placeholder="Username"><br />
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+<input type="password" id="password" placeholder="Password"><br />
+<input type="button" id="login" value="Log on" onClick="clicke2()">
+</center>
+    </div>
+  </form>
+</div>     
+<div id="id02" class="modal">
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>CONTINUE TO YOUR ACCOUNT
+       </h1>
+        <h3>You need to be logged in to add to your favorites</h3>
+        <img src="icon/295128.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+    <input type="text" placeholder="Example@example.com"  id="email"  required>
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+         <input type="password" id="pass" placeholder="Enter Password"  required>
+<input type="submit" id="login" value="Log on" onClick="clicke1()">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <a href="login.html"><h3>Create an Account</h3></a>
+  </form>
+</div>
+        
+
+        
+        <div id="id05" class="modal">
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>CONTINUE TO YOUR ACCOUNT
+       </h1>
+        <h3>You need to be logged in to add to your favorites</h3>
+        <img src="icon/295128.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+    <input type="text" placeholder="Example@example.com"  id="email1"  required>
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+         <input type="password" id="pass1" placeholder="Enter Password"  required>
+<input type="submit" id="login" value="Log on" onClick="clicke4()">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <a href="login.html"><h3>Create an Account</h3></a>
+  </form>
+</div>
+        
+
+        <div id="id06" class="modal">
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>CONTINUE TO YOUR ACCOUNT
+       </h1>
+        <h3>You need to be logged in to add to your favorites</h3>
+        <img src="icon/295128.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+    <input type="text" placeholder="Example@example.com"  id="email2"  required>
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+         <input type="password" id="pass2" placeholder="Enter Password"  required>
+<input type="submit" id="login" value="Log on" onClick="clicke5()">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <a href="login.html"><h3>Create an Account</h3></a>
+  </form>
+</div>
+<div id="id07" class="modal">
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id07').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>CONTINUE TO YOUR ACCOUNT
+       </h1>
+        <h3>You need to be logged in to add to your favorites</h3>
+        <img src="icon/295128.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+    <input type="text" placeholder="Example@example.com"  id="email3"  required>
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+         <input type="password" id="pass3" placeholder="Enter Password"  required>
+<input type="submit" id="login" value="Log on" onClick="clicke6()">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <a href="login.html"><h3>Create an Account</h3></a>
+  </form>
+</div>
+     <div id="id08" class="modal">
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id08').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>CONTINUE TO YOUR ACCOUNT
+       </h1>
+        <h3>You need to be logged in to add to your favorites</h3>
+        <img src="icon/295128.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+    <input type="text" placeholder="Example@example.com"  id="email4"  required>
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+         <input type="password" id="pass4" placeholder="Enter Password"  required>
+<input type="submit" id="login" value="Log on" onClick="clicke7()">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <a href="login.html"><h3>Create an Account</h3></a>
+  </form>
+</div>
+        <div id="id09" class="modal">
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id09').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>CONTINUE TO YOUR ACCOUNT
+       </h1>
+        <h3>You need to be logged in to add to your favorites</h3>
+        <img src="icon/295128.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+    <input type="text" placeholder="Example@example.com"  id="email5"  required>
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+         <input type="password" id="pass5" placeholder="Enter Password"  required>
+<input type="submit" id="login" value="Log on" onClick="clicke8()">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <a href="login.html"><h3>Create an Account</h3></a>
+  </form>
+</div>
+
+   <div id="id010" class="modal">
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id010').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>CONTINUE TO YOUR ACCOUNT
+       </h1>
+        <h3>You need to be logged in to add to your favorites</h3>
+        <img src="icon/295128.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+    <input type="text" placeholder="Example@example.com"  id="email6"  required>
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+         <input type="password" id="pass6" placeholder="Enter Password"  required>
+<input type="submit" id="login" value="Log on" onClick="clicke9()">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <a href="login.html"><h3>Create an Account</h3></a>
+  </form>
+</div>
+        
+      
+        
+           <div id="id011" class="modal">
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id011').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>CONTINUE TO YOUR ACCOUNT
+       </h1>
+        <h3>You need to be logged in to add to your favorites</h3>
+        <img src="icon/295128.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+    <input type="text" placeholder="Example@example.com"  id="email7"  required>
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+         <input type="password" id="pass7" placeholder="Enter Password"  required>
+<input type="submit" id="login" value="Log on" onClick="clicke10()">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <a href="login.html"><h3>Create an Account</h3></a>
+  </form>
+</div>
+        
+ 
+           <div id="id012" class="modal">
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id012').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1>CONTINUE TO YOUR ACCOUNT
+       </h1>
+        <h3>You need to be logged in to add to your favorites</h3>
+        <img src="icon/295128.png"style="height: 100px; width: 100px;">
+    </div>
+    <div class="container">
+      <label id="l1" for="uname"><b>Enter User Name:</b></label>
+    <input type="text" placeholder="Example@example.com"  id="email8"  required>
+       <label id="l1" for="psw"><b>Enter Password:</b></label>
+         <input type="password" id="pass8" placeholder="Enter Password"  required>
+<input type="submit" id="login" value="Log on" onClick="clicke11()">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <a href="login.html"><h3>Create an Account</h3></a>
+  </form>
+</div>
+
+        
+<script>  
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target== modal) {
+        modal.style.display = "none";
+    }
+}
+var modal = document.getElementById('id02');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+var modal = document.getElementById('id05');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+var modal = document.getElementById('id06');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+var modal = document.getElementById('id07');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+var modal = document.getElementById('id08');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+var modal = document.getElementById('id09');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+var modal = document.getElementById('id010');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+var modal = document.getElementById('id011');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+var modal = document.getElementById('id012');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+   <div class="header">
+   <img class="logo" src="icon/logo66.png" >
+   <div class="header-right"> 
+    <a class="active" href="#home">Home</a>
+    <a href="CONTACT%20US.html">Contact Us</a>
+    <a href="aboutegypt.html">About Egypt</a>
+    <a href="mediacenter.html">Media Center</a>
+    <a href="sports.html">Sports</a>
+<form  action="https://www.google.com/search"target="_blank">
+<input class="search_2" name="q" placeholder="Search For Google" >
+</form>
+       <style>
+           .h{
+               text-align: center;
+               color:bisque;
+           }
+           h3{
+               text-align: center;
+               color:bisque;
+           }
+                  marquee{
+             color:bisque;
+             font-size: 25px;
+ background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.2);
+    
+         }
+           span9{
+               color:chocolate;
+           }
+             span10{
+               color:chocolate;
+                 font-style: oblique;
+           }
+      
+       </style>
+  </div>     
+ </div>
+         
+ <h3 onclick="document.getElementById('id01').style.display='block'">Login</h3>
+        <div style="text-align: center">
+        <a href="https://aem-login-user.eu-gb.mybluemix.net/?fbclid=IwAR06wTO1xTeZbqxgNNclXj_EA-H6OjASMTweUf3gnfaDF5D2-wW8_Cad_QM" target="_blank"><span10>Login with IBM Cloudent</span10></a>
+        </div>
+           <div class="h">
+            <a href="https://www.facebook.com/eg.ExperienceEgypt/?brand_redir=159349944083305" target="_blank">
+                <img  src="icon/white-facebook-logo-png-2.png"  style="width:35px;height: 35px;"></a>
+            <a href="https://twitter.com/ExperienceEgypt" target="_blank">
+                <img  src="icon/twitwe.png" style="width:35px;height: 35px;"></a>                
+            <a href="https://www.instagram.com/experienceegypt/" target="_blank">
+                <img  src="icon/instagram.png" style="width:35px;height: 35px;"></a>
+            <a href="https://www.youtube.com/channel/UCbEsrYwtICShIo_VPoBCQGw" target="_blank"><img  src="icon/you.png"style="width:30px;height: 30px;"></a>
+            <a href="https://plus.google.com/+egypttourism" target="_blank"><img  src="icon/gplus.png"style="width:35px;height: 35px;"></a>
+        </div>
+ <img src="images/ancient-egypt1.jpg" style="width:100%;height:100%;">
+     </header>
+     <div class="chatbot">
+          <a href="https://api.whatsapp.com/send?phone=201097631700">
+              <img src="icon/580b57fcd9996e24bc43c543.png" style="height: 50px;width: 50px; text-align: right;"></a>
+         <a href="https://assistant-chat-eu-gb.watsonplatform.net/web/public/a8612e89-8019-4934-a043-1a31b473b357?fbclid=IwAR2bYT0y_kfMBTqdQd6Oor2ERd82KVqfcV3zhxYpjTLnn_7oEXp5SGzd57M">
+        <img src="icon/chat%20pot.png"style="height: 50px;width:50px;"></a>
+         </div>
+<div class="o">
+    <h1>WHERE TO GO</h1>
+        <h2>Everyday is a journey and your journey starts here</h2>
+    <h3>EXPLORE</h3>
+     </div>
+		<div style="text-align:center">
+             <div style="position:relative;height:0;padding-bottom:56.22%"><iframe src="https://www.youtube.com/embed/mfxQy5A_tHs" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+    </div>
+     <div class="o">
+     <h1>Choose the tourist place you want to go to</h1>
+     <h3>click on the picture</h3>
+     </div>
+
+     <div class="u">
+              <marquee 
+  width="100%" scrollamount="10" >Welcome to Egyption Tourism Advisor,This site offers you a selection of the most famous tourist places in Egypt and you can go anywhere with the click of a button 
+             <span9>try now.</span9>
+</marquee>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+  <div class="numbertext">1/ 8</div>
+    <img src="images/pr.jpeg" style="width:100%; height: 100%;" onclick="document.getElementById('id05').style.display='block'"  >
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="images/cairo%20twor.jpeg" style="width:100% ; height: 100%; " onclick="document.getElementById('id06').style.display='block'" >
+    </div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+       <img src="images/aswan.jpeg" style="width:100%; height: 100%; " onclick="document.getElementById('id07').style.display='block'" >
+</div>
+    <div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+     <img src="images/castel.jpeg" style="width:100%; height: 100%;" onclick="document.getElementById('id08').style.display='block'" >
+</div>
+    <div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+    <img src="images/cairo.jpeg" style="width:100% ; height: 100%;"
+         onclick="document.getElementById('id09').style.display='block'" >
+</div>
+    <div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+    <img src="images/egyption%20musiem.jpeg" style="width:100% ; height: 100%;" onclick="document.getElementById('id010').style.display='block'" >
+</div>
+    <div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+        <img src="images/sharm.jpeg" style="width:100% ; height: 100%;" onclick="document.getElementById('id011').style.display='block'" >
+</div>
+    <div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+    <img src="images/abu%20simble.jpeg" style="width:100% ; height: 100%;" onclick="document.getElementById('id012').style.display='block'" >
+</div>
+<a class="prev"  onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+<span class="dot" onclick="currentSlide(8)"></span>
+</div> 
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+     <div class="color">
+<h1>Knowing Tourist Places by</h1>
+     </div>
+<div style="text-align: center">
+    <a href="https://www.google.com/maps/@26.9060999,30.8768375,6z" target="_blank"><img id="myImg" src="icon/location.png"  style="width:100px;height: 100px"></a>
+    <a href="https://m.uber.com/looking/search/pickup" target="_blank"><img id="myImg" src="icon/on_color_large.png" style="width:100px;height: 100px"></a>
+    </div>
+     <br>
+     <br>
+     <div class="color">
+     <h1>Activities</h1>
+<a href="https://www.getyourguide.com/"><h3>EXPLORE</h3></a>
+         </div>
+<style>
+    
+    button{
+        font-size: 20px;
+        color: aliceblue;
+        background-color:#7A4810;
+        text-align: center;
+        width: 100px;
+        height: 100%;
+        text-align: center;
+    }
+         </style>
+         <div style="position:relative;height:0;padding-bottom:56.22%"><iframe src="https://www.youtube.com/embed/kVAVFtSeiHg" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+     </div>
+<div style="text-align: center">
+</div>
+     <img src="images/middle-east-desert.jpg" style="height: 400px; width:100%; ">
+     <br>
+     <h1> Knowing the traffic situation and temperatures for every tourist place</h1>
+<div style="text-align: center">
+    <a href="https://www.accuweather.com/en/eg/cairo/127164/weather-forecast/127164" target="_blank"><img id="myImg" src="icon/Coloured_Weather_Icon_Set_by_ViconsDesign-12-512.png"  style="width:100px;height: 100px"></a>
+     <img id="myImg" src="icon/two-way-traffic-straight-ahead-30916_960_720.png"style="width:100px;height: 100px">
+     </div>
+     <div class="f">
+     <h1> Sign up </h1>
+     </div>
+     <style>
+         .f{
+             text-align: center;
+         color: goldenrod;
+         }
+     </style>
+<div style="text-align: center">
+
+<img id="myImg" src="icon/activity-png-2.png" style="width:100px;height: 100px">
+    <a href="https://ar.trivago.com/en?themeId=280&sem_keyword=trivago&sem_creativeid=192022524375&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=1t1&sem_param1=&sem_param2=&sem_campaignid=289017532&sem_adgroupid=25945918372&sem_targetid=kwd-5593367084&sem_location=1005394&cip=9661900005&gclid=EAIaIQobChMIlZ62xdDq3gIVRqgYCh3T0ge-EAAYASAAEgLLFfD_BwE"><img id="myImg" src="icon/3-512.png"style="width:100px;height: 100px"></a>
+</div>
+     <div class="by">
+  <h1>powered by:</h1>
+         <style>
+             h2{
+                 color:bisque;
+             }
+         </style>
+         <img  src="icon/77.jpg" style="width:300px;height: 200px;   ">                  
+         </div>
+         <footer>       
+<div style="text-align: center">
+         <h3>Find us on #ThisIsEgypt</h3>
+ <a href="https://www.facebook.com/eg.ExperienceEgypt/?brand_redir=159349944083305" target="_blank">
+         <img  src="icon/white-facebook-logo-png-2.png"  style="width:30px;height: 30px;"></a>
+            <a href="https://twitter.com/ExperienceEgypt" target="_blank">
+                <img  src="icon/twitwe.png" style="width:30px;height: 30px;"></a>                  
+            <a href="https://www.instagram.com/experienceegypt/" target="_blank">
+                <img  src="icon/instagram.png" style="width:30px;height: 30px;"></a>
+            <a href="https://www.youtube.com/channel/UCbEsrYwtICShIo_VPoBCQGw" target="_blank"><img  src="icon/you.png"style="width:30px;height: 30px;"></a>
+            <a href="https://plus.google.com/+egypttourism" target="_blank"><img  src="icon/gplus.png"style="width:30px;height: 30px;"></a>
+         <p>© Copyrights Egypt 2018. All Rights Reserved.</p>
+         <h3>Supervisor:Dr.Essam Eliwa</h3>
+</div>
+     </footer>
+    </body>
+</html>
